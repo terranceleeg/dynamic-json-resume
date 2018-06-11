@@ -14,15 +14,15 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha tests/"
   },
-  "author": "Jeremy Dagorn <jeremy.dagorn@gmail.com>",
+  "author": "Terrance Gallaher <terranceleeg@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jrm2k6/dynamic-json-resume/issues",
-    "email": "jeremy.dagorn@gmail.com"
+    "email": "terranceleeg@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jrm2k6/dynamic-json-resume"
+    "url": "https://github.com/terranceleeg/dynamic-json-resume"
   },
   "files": [
     "examples/",
