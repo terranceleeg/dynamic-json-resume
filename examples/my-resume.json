@@ -1,217 +1,205 @@
 {
-	"resume": {
-		"contact" : {
-			"first_name": "Jeremy",
-			"last_name": "DAGORN",
-			"website": "http://www.jeremydagorn.com",
-			"email": "jeremy.dagorn@gmail.com",
-			"github": "http://github.com/jrm2k6",
-			"city": "San Diego"
-		},
-
-		"education": [
-			{
-				"item-education": {
-					"start-date": "Sep, 2011",
-					"end-date": "May, 2012",
-					"institution": {
-						"name": "Laval University",
-						"city": "Quebec City",
-						"country": "Canada"
-					},
-					"description": "Exchange student in software engineering and computer science",
-					"additional-info": "Graduating with the equivalent of a Master Degree in Computer Science",
-					"id": "item-education-laval",
-					"extra": {
-						"type": "text",
-						"extraContent": "This is when I started to discover an interest for programming. On my free time I started to work on my first website, using Ruby on Rails. You can still find it at <a href=\"http://www.old.jeremydagorn.com\"> old.jeremydagorn.com</a>."
-					}
-				}
-			},
-			{
-				"item-education": {
-					"start-date": "Sep, 2009",
-					"end-date": "Oct, 2012",
-					"institution": {
-						"name": "Engineering School of University of Nantes",
-						"city": "Nantes",
-						"country": "France"
-					},
-					"description": "Student in Software Engineering and Networks.",
-					"additional-info": "Graduated with the equivalent of a Master Degree in Computer Science",
-					"extra": {
-						"type": "text",
-						"extraContent": "Fun fact: my first Android app was a shopping list application for a school project. <br /> Done in collaboration with <a href=\"https://twitter.com/atomrc\">@atomrc</a> at the time."
-					},
-					"id": "item-education-polytech"
-				}
-			},
-			{
-				"item-education": {
-					"start-date": "Sep, 2006",
-					"end-date": "May, 2009",
-					"institution": {
-						"name": "University of South Brittany",
-						"city": "Vannes",
-						"country": "France"
-					},
-					"description": "Student in Computer Science.",
-					"additional-info": "Graduated with a Bachelor Degree in Computer Science with honors"
-				}
-			}
-		],
-		"work": [
-			{
-				"item-work": {
-					"start-date": "Oct. 2016",
-					"end-date": "Current",
-					"position": "Software engineer",
-					"company": {
-						"name": "Ebates",
-						"city": "San Diego",
-						"country": "USA"
-					},
-					"achievements": "Member of the universal shopping cart team. I add features and help maintain several of our microservices in PHP/Laravel. Some of my other responsibilities include APIs integration (external merchants), and continuous integration pipeline for one-click deployment in our different QA environments, using Jenkins and Docker.",
-					"technologies": [
-						"Javascript",
-						"Angular.js",
-						"PHP",
-						"Laravel",
-						"Java"
-					]
-				}
-			},
-			{
-				"item-work": {
-					"start-date": "Jan. 2015",
-					"end-date": "Oct. 2016",
-					"position": "Software engineer",
-					"company": {
-						"name": "Curology",
-						"city": "San Diego",
-						"country": "USA"
-					},
-					"achievements": "Full-stack engineer, first engineer to join. Working on front-end and backend development to drive acquisition and retention of users. During my time there, I reimplemented a complex signup flow using Ember.js, introduced the company to React.js and Redux, and setup the initial Jenkins pipeline for our continous integration. I also worked a lot on improving our test coverage, through unit tests but also integration tests using Cucumber. Some of the React projects I worked on were a support center for our users, and an inventory management solution for our fulfillment team (Web app and React Native mobile app acting as a bottle scanner).",
-					"technologies": [
-						"Javascript",
-						"React.js",
-						"Ember.js",
-						"Laravel",
-						"React-Native"
-					]
-				}
-			},
-			{
-				"item-work": {
-					"start-date": "May. 2012",
-					"end-date": "Sep. 2014",
-					"position": "Software engineer",
-					"company": {
-						"name": "Prezi.com",
-						"city": "Budapest",
-						"country": "Hungary"
-					},
-					"achievements": "During my two years at Prezi, I have been part of several teams. I started as a developer in charge of implementing new features for the Prezi editor, in order to increase the number of reccurring users. Then, I joined the Collaboration team where I implemented complex user interfaces and new features for real time editing and presenting of Prezi presentations. I also joined the Javascript team where I worked on implementing a UI framework for other developers including a lot of architectural decisions.",
-					"technologies": [
-						"Actionscript",
-						"Javascript",
-						"Typescript",
-						"Haxe",
-						"React.js",
-						"Java",
-						"Python"
-					],
-					"id": "item-work-prezi",
-					"extra": {
-						"type": "text",
-						"extraContent": "I learned so much during my time there. From testing to continuous deployment. <br /> Some technologies and tools that I used: <ul><li>Jenkins</li><li>Pig/Hadoop</li><li>Cucumber</li><li>Gradle</li></ul>"
-					}
-				}
-			}
-		],
-		"projects": [
-			{
-				"item-projects": {
-					"title": "Developer for iheartreading.co",
-					"description": "I have been working on I Heart Reading for a bit more than a year now. It is a platform helping teachers and students to keep track of their readings. It also gives the ability for teachers to get a clear picture of the progress made by their students, through a simple interface. Students can mark books as read and write reviews that their teachers can approve. I have one school in San Diego using it for the second year now. I started it from scratch as a way to improve my skills in Laravel and React. Some of the upcoming features would be books recommendations and adding some gamificiation to make reading logs more fun to use.",
-					"technologies": [
-						"React",
-						"Redux",
-						"Laravel"
-					]
-				}
-			},
-			{
-				"item-projects": {
-					"title": "Maintainer of several open-source projects",
-					"description":"On my free time, I work on various open-source projects of my own. Those mostly includes small packages, easy to integrate. For example, this resume is generated through a npm package of my own called json-resume-dynamic. I have also a markdown editor with preview implemented in React.js that is currently used in production at Curology. I am also maintaining Reddit and Cloudinary API wrappers for Laravel, available as composer packages. ANother project is a small npm package to help you generate a calendar showing all your Bitbucket and Github contributions as a React component, easy to display on your website.",
-					"technologies": [
-						"React",
-						"Laravel"
-					]
-				}
-			}
-		],
-		"skills": [
-			"Javascript",
-			"React.js/Redux",
-			"PHP",
-			"Laravel",
-			"Android/Java"
-		],
-		"languages": [
-			{
-				"item-languages": {
-					"name": "French",
-					"additional-info": "Native language"
-				}
-			},
-			{
-				"item-languages": {
-					"name": "English",
-					"additional-info": "Bilingual"
-				}
-			}
-		],
-		"hobbies": [
-			{
-				"item-hobbies": {
-					"name": "Functional programming",
-					"additional-info": "I have a growing interest for functional programming - Haskell/Elm"
-				}
-			},
-			{
-				"item-hobbies": {
-					"name": "Criminology",
-					"id": "hobby-criminology",
-					"extra": {
-						"type": "text",
-						"extraContent": "One of my favorite author is <a href=\"www.goodreads.com/author/show/118380.St_phane_Bourgoin\">Stephane Bourgoin</a>."
-					}
-				}
-			},
-			{
-				"item-hobbies": {
-					"name": "Soccer",
-					"additional-info": "played competitively for more than 18 years"
-				}
-			},
-			{
-				"item-hobbies": {
-					"name": "Startups",
-					"id": "hobby-startup",
-					"extra": {
-						"type": "text",
-						"extraContent": "My daily readings include: <ul><li>Hacker News</li><li>Various programming related subreddits</li><li>Netflix tech blog</li><li>Linkedin tech blog</li> </lu>and a lot of nice blog posts to read found through <a href=\"http://www.twitter.com/jrm2k6\">Twitter</a>"
-					}
-				}
-			},
-			{
-				"item-hobbies": {
-					"name": "Travelling"
-				}
-			}
-		]
-
-	}
+  "basics": {
+    "name": "Terrance Gallaher Jr",
+    "label": "Graphic Designer/Web Developer",
+    "picture": "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/21432916_1600339096699729_146751961246830944_n.jpg?_nc_cat=0&oh=590ea96053e1ddf36f93b1ab9214ce78&oe=5B9C40C3",
+    "email": "terranceleeg@gmail.com",
+    "phone": "(509)-435-2686",
+    "website": "http://terranceleeg-designs.com",
+    "summary": "My name is Terrance Gallaher Jr. I come from a small town outside of Spokane, WA known as Wellpinit. I study Visual Communication Design at Eastern Washington University and I have a minor in art along with a certificate in User Experience Design. I enjoy meeting new people and I am always ready to conquer any challenges presented to me. I'm also a quick study and learning new things comes easy to me. For more information about what my work experience has been and some awards I've won, please look below.",
+    "location": {
+      "address": "12202 E Maxwell Ave Apt D201",
+      "postalCode": "99206",
+      "city": "Spokane Valley",
+      "countryCode": "US",
+      "region": "Washington"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "terranceleeg",
+        "url": "https://twitter.com/terranceleeg"
+      },
+      {
+        "network": "Facebook",
+        "username": "Terrance Gallaher",
+        "url": "https://www.facebook.com/terrance.gallaher?ref=bookmarks"
+      },
+      {
+        "network": "Github",
+        "username": "terranceleeg",
+        "url": "https://github.com/terranceleeg?tab=repositories"
+      },
+      {
+        "network": "codepen",
+        "username": "terranceleeg",
+        "url": "https://codepen.io/projects/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "NYC Summer Youth",
+      "position": "Youth Worker",
+      "website": "http://spokanetribe.com/",
+      "startDate": "06-01-2010",
+      "endDate": "08-01-2013",
+      "summary": "The summer youth program was a work program for the youth of the Spokane tribe. It was offered every summer to students and younger people from around the Spokane City area. The work revolved around landscaping and taking care of public events that happened during the summer.",
+      "highlights": [
+        "- Aided the elderly in cleaning their yards and maintaining their housing.",
+        "- Took care of the public areas around the reservation; this includes swimming areas around the rivers, and the pow wow grounds around the town.",
+        "- Learned how to work with motorized equipment to help with landscaping."
+      ]
+    },
+    {
+      "company": "Spoko Fuels - West Plains",
+      "position": "Cashier",
+      "website": "http://spokanetribe.com/",
+      "startDate": "07-01-2014",
+      "endDate": "",
+      "summary": "The work at Spoko Fuels revolved around mostly cashier work, but that was not the limit of the things one would do. Work there pertains to anything related to a gas stations maintenance as well. I worked with propane, customers, handled daily paperwork, and covered custodial jobs as well.",
+      "highlights": [
+        "- Certified to work with propane and to handle the propane tanks.",
+        "- Working with people all day",
+        "- Paperwork covering the total cashflow the tills go through, throughout the day."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Eastern Washington University",
+      "area": "Visual Communication Design",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2013-09-01",
+      "endDate": "",
+      "gpa": "3.3",
+      "courses": [
+        "UX Design 1,2",
+        "Web Design 1,2,3",
+        "Production Design"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Deans List",
+      "date": "2012-01-01",
+      "awarder": "EWU",
+      "summary": "I've been on the dean's list more than once for multiple different quarters, this means that my GPA was higher than a 3.5 for the overall quarter. For questions about this, please ask."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Advertisement Bumper for SPACED",
+      "publisher": "Youtube",
+      "releaseDate": "2017-12-12",
+      "website": "https://www.youtube.com/watch?v=un5SwEFdf10",
+      "summary": "Made in my motion Design Class, this was an animated bumper for a made up company called SPACED."
+    },
+    {
+      "name": "Video Reel for highlights from Motion Design",
+      "publisher": "Vimeo",
+      "releaseDate": "12-12-2018",
+      "website": "https://vimeo.com/260883507",
+      "summary": "This was a video reel that I made from all of the highlights from my motion class. This includes an animation I did, a sound composition, and a animated bumper."
+    },
+    {
+      "name": "SPACED Mobile Application Prototype",
+      "publisher": "inVision",
+      "releaseDate": "03-15-2018",
+      "website": "https://invis.io/KMI6K7TT3ZV#/293341287_iPhone_8",
+      "summary": "This is a prototype that I designed in Sketch, and made a prototype for in inVision"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "intermediate",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "PNG"
+      ]
+    },
+    {
+      "name": "Motion Design",
+      "level": "intermediate",
+      "keywords": [
+        "After Effects",
+        "MP4"
+      ]
+    },
+    {
+      "name": "Graphic Design",
+      "level": "intermediate",
+      "keywords": [
+        "Posters",
+        "CD Booklets",
+        "Infographic Posters",
+        "Branding"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Art",
+      "keywords": [
+        "Acrylic Painting",
+        "Charcoal Drawing",
+        "Watercolor Painting",
+        "Digital Art"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Track & Field",
+        "Trail Running",
+        "Cross Country",
+        "Basketball"
+      ]
+    },
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Hunting",
+        "Fishing",
+        "Hiking"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Leslie Rima",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    },
+    {
+      "name": "Whitney Poitra",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    },
+    {
+      "name": "Josie Flett",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    },
+    {
+      "name": "Tim Peone",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
 }
