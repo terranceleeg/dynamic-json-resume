@@ -4,7 +4,7 @@ var ExtraManager = require('./lib/extraItemsManager');
 var Converter = require('./lib/converterJsonResumeFormat');
 
 function getResumeWithExtras(resumeJsonFile) {
-	var resumeJson = JSON.parse(resumeJsonFile);
+	var resumeJson = my-resume.json(resumeJsonFile);
 	var v = Verifier.run(resumeJson);
 	var em = ExtraManager.extractExtras(resumeJson);
 	var extraContent = ExtraManager.generateExtraItemsTemplateCode(em);
