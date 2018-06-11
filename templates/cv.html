@@ -12,36 +12,36 @@
     <div id="pointer"></div>
     <div class="container">
         <div id="cv">
-            <div id="contact" {{#resume.contact.id}} data-id="{{ resume.contact.id }}" {{/resume.contact.id}}>
-                <div class="contact-name">{{ resume.contact.first_name }} {{ resume.contact.last_name }}</div>
-                <div class="contact-email">{{ resume.contact.email }}</div>
-                {{ #resume.contact.website }}
-                    <div class="contact-website"> {{ resume.contact.website }}</div>
-                {{ /resume.contact.website }}
-                {{ #resume.contact.github }}
-                <div class="contact-external"> {{ resume.contact.github }} </div>
-                {{ /resume.contact.github }}
-                <div class="contact-city">Living in {{ resume.contact.city }}</div>
+            <div id="contact" {{#basics.contact.id}} data-id="{{ basics.contact.id }}" {{/basics.contact.id}}>
+                <div class="contact-name">{{ basics.name }}</div>
+                <div class="contact-email">{{ basics.email }}</div>
+                {{ #basics.website }}
+                    <div class="contact-website"> {{ basics.website }}</div>
+                {{ /basics.website }}
+                {{ #profiles.network }}
+                <div class="contact-external"> {{ profiles.url }} </div>
+                {{ /profiles.network }}
+                <div class="contact-city">Living in {{ basics.location.city }}</div>
             </div>
 
-            {{ #resume.education.length }}
+            {{ #education.length }}
             <div id="education" class="section">
                 <div class="title-section">Education</div>
-                {{ #resume.education }}
-                <div class="education-item" {{#item-education.id}} data-id="{{ item-education.id }}" {{/item-education.id}}>
-                    <span class="header-date">{{ item-education.start-date}} &ndash; {{ item-education.end-date }} </span>
-                    <span class="header-school-name">{{ item-education.institution.name }}</span>
-                    <span class="header-school-location">({{ item-education.institution.city }}, {{ item-education.institution.country }})</span> <br />
-                    <span class="description-education">{{ item-education.description }}
+                {{ #education.institution }}
+                <div class="education-item" {{#education-education.id}} data-id="{{ education.area }}" {{/item-education.id}}>
+                    <span class="header-date">{{ education.startDate}} &ndash; {{ education.endDate }} </span>
+                    <span class="header-school-name">{{ education.institution }}</span>
+                    <span class="header-school-location">({{ education.area }}, {{ item-education.institution.country }})</span> <br />
+                    <span class="description-education">{{ education.studyType }}
                     {{ #item-education.additional-info }}
                         <br />
-                        {{ item-education.additional-info }}
+                        {{ education.gpa }}
                     {{ /item-education.additional-info }}
                     </span>
                 </div>
                 {{ /resume.education }}
             </div>
-            {{ /resume.education.length }}
+            {{ /education.length }}
 
             {{ #resume.work.length }}
             <div id="work-experience" class="section">
