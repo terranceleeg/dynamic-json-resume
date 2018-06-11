@@ -1,115 +1,205 @@
 {
-	"resume": {
-		"contact" : {
-			"first_name": "",
-			"last_name": "",
-			"website": "",
-			"email": "",
-			"github": "",
-			"city": ""
-		},
-
-		"education": [
-			{
-				"item-education": {
-					"start-date": "",
-					"end-date": "",
-					"institution": {
-						"name": "",
-						"city": "",
-						"country": ""
-					},
-					"description": "",
-					"additional-info": ""
-				}
-			},
-			{	
-				"item-education": {
-					"start-date": "",
-					"end-date": "",
-					"institution": {
-						"name": "",
-						"city": "",
-						"country": ""
-					},
-					"description": "",
-					"additional-info": ""
-				}
-			},
-			{	
-				"item-education": {
-					"start-date": "",
-					"end-date": "",
-					"institution": {
-						"name": "",
-						"city": "",
-						"country": ""
-					},
-					"description": "",
-					"additional-info": ""
-				}
-			}
-		],
-		"work": [
-			{
-				"item-work": {
-					"start-date": "",
-					"end-date": "",
-					"position": "",
-					"company": {
-						"name": "",
-						"city": "",
-						"country": ""
-					},
-					"achievements": "",
-					"technologies": [
-					]
-				}
-			}
-		],
-		"projects": [
-			{
-				"item-projects": {
-					"title": "",
-					"description":"",
-					"technologies": []
-				}
-			}
-		],
-		"skills": [
-		],
-		"languages": [
-			{
-				"item-languages": {
-					"name": "",
-					"additional-info": ""
-				}
-			},
-			{
-				"item-languages": {
-					"name": ""
-				}
-			}
-		],
-		"hobbies": [
-			{
-				"item-hobbies": {
-					"name": ""
-				}
-			},
-			{
-				"item-hobbies": {
-					"name": "",
-					"additional-info": ""
-				}
-			},
-			{
-				"item-hobbies": {
-					"name": "",
-					"additional-info": ""
-				}
-			}
-		]
-
-	}
+  "basics": {
+    "name": "Terrance Gallaher Jr",
+    "label": "Graphic Designer/Web Developer",
+    "picture": "https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/21432916_1600339096699729_146751961246830944_n.jpg?_nc_cat=0&oh=590ea96053e1ddf36f93b1ab9214ce78&oe=5B9C40C3",
+    "email": "terranceleeg@gmail.com",
+    "phone": "(509)-435-2686",
+    "website": "http://terranceleeg-designs.com",
+    "summary": "My name is Terrance Gallaher Jr. I come from a small town outside of Spokane, WA known as Wellpinit. I study Visual Communication Design at Eastern Washington University and I have a minor in art along with a certificate in User Experience Design. I enjoy meeting new people and I am always ready to conquer any challenges presented to me. I'm also a quick study and learning new things comes easy to me. For more information about what my work experience has been and some awards I've won, please look below.",
+    "location": {
+      "address": "12202 E Maxwell Ave Apt D201",
+      "postalCode": "99206",
+      "city": "Spokane Valley",
+      "countryCode": "US",
+      "region": "Washington"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "terranceleeg",
+        "url": "https://twitter.com/terranceleeg"
+      },
+      {
+        "network": "Facebook",
+        "username": "Terrance Gallaher",
+        "url": "https://www.facebook.com/terrance.gallaher?ref=bookmarks"
+      },
+      {
+        "network": "Github",
+        "username": "terranceleeg",
+        "url": "https://github.com/terranceleeg?tab=repositories"
+      },
+      {
+        "network": "codepen",
+        "username": "terranceleeg",
+        "url": "https://codepen.io/projects/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "NYC Summer Youth",
+      "position": "Youth Worker",
+      "website": "http://spokanetribe.com/",
+      "startDate": "06-01-2010",
+      "endDate": "08-01-2013",
+      "summary": "The summer youth program was a work program for the youth of the Spokane tribe. It was offered every summer to students and younger people from around the Spokane City area. The work revolved around landscaping and taking care of public events that happened during the summer.",
+      "highlights": [
+        "- Aided the elderly in cleaning their yards and maintaining their housing.",
+        "- Took care of the public areas around the reservation; this includes swimming areas around the rivers, and the pow wow grounds around the town.",
+        "- Learned how to work with motorized equipment to help with landscaping."
+      ]
+    },
+    {
+      "company": "Spoko Fuels - West Plains",
+      "position": "Cashier",
+      "website": "http://spokanetribe.com/",
+      "startDate": "07-01-2014",
+      "endDate": "",
+      "summary": "The work at Spoko Fuels revolved around mostly cashier work, but that was not the limit of the things one would do. Work there pertains to anything related to a gas stations maintenance as well. I worked with propane, customers, handled daily paperwork, and covered custodial jobs as well.",
+      "highlights": [
+        "- Certified to work with propane and to handle the propane tanks.",
+        "- Working with people all day",
+        "- Paperwork covering the total cashflow the tills go through, throughout the day."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Eastern Washington University",
+      "area": "Visual Communication Design",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2013-09-01",
+      "endDate": "",
+      "gpa": "3.3",
+      "courses": [
+        "UX Design 1,2",
+        "Web Design 1,2,3",
+        "Production Design"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Deans List",
+      "date": "2012-01-01",
+      "awarder": "EWU",
+      "summary": "I've been on the dean's list more than once for multiple different quarters, this means that my GPA was higher than a 3.5 for the overall quarter. For questions about this, please ask."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Advertisement Bumper for SPACED",
+      "publisher": "Youtube",
+      "releaseDate": "2017-12-12",
+      "website": "https://www.youtube.com/watch?v=un5SwEFdf10",
+      "summary": "Made in my motion Design Class, this was an animated bumper for a made up company called SPACED."
+    },
+    {
+      "name": "Video Reel for highlights from Motion Design",
+      "publisher": "Vimeo",
+      "releaseDate": "12-12-2018",
+      "website": "https://vimeo.com/260883507",
+      "summary": "This was a video reel that I made from all of the highlights from my motion class. This includes an animation I did, a sound composition, and a animated bumper."
+    },
+    {
+      "name": "SPACED Mobile Application Prototype",
+      "publisher": "inVision",
+      "releaseDate": "03-15-2018",
+      "website": "https://invis.io/KMI6K7TT3ZV#/293341287_iPhone_8",
+      "summary": "This is a prototype that I designed in Sketch, and made a prototype for in inVision"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "intermediate",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "PNG"
+      ]
+    },
+    {
+      "name": "Motion Design",
+      "level": "intermediate",
+      "keywords": [
+        "After Effects",
+        "MP4"
+      ]
+    },
+    {
+      "name": "Graphic Design",
+      "level": "intermediate",
+      "keywords": [
+        "Posters",
+        "CD Booklets",
+        "Infographic Posters",
+        "Branding"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Art",
+      "keywords": [
+        "Acrylic Painting",
+        "Charcoal Drawing",
+        "Watercolor Painting",
+        "Digital Art"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Track & Field",
+        "Trail Running",
+        "Cross Country",
+        "Basketball"
+      ]
+    },
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Hunting",
+        "Fishing",
+        "Hiking"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Leslie Rima",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    },
+    {
+      "name": "Whitney Poitra",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    },
+    {
+      "name": "Josie Flett",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    },
+    {
+      "name": "Tim Peone",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
 }
